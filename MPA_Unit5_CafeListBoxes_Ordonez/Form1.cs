@@ -63,16 +63,13 @@ namespace MPA_Unit5_CafeListBoxes_Ordonez
 
 
                 //var price = (double)((CMI)item).Price;
-
-
-
                 //    //the split happens at the '$' and the Last() has it so
                 //    //it is the last '$' in the sting it chooses to split
                 //    var itemPriceString = item.ToString().Split('$').Last();
                 //    var itemPrice = double.Parse(itemPriceString);
 
                 //   //this += takes the items and adds them to the subtotal 
-                subtotal += price;
+                //subtotal += price;
                 //tax = subtotal * TAXRATE;
                 //total = tax + subtotal;
             }
@@ -133,19 +130,7 @@ namespace MPA_Unit5_CafeListBoxes_Ordonez
                new CMI("bagel raisin",1.85m, _Category.Food),
                new CMI("scone",2.25m, _Category.Food),
                new CMI("muffine",2.15m, _Category.Food),
-    //Coffee – Small $1.25
-//Coffee – Large $1.75
-//Cappuccino $2.75
-//Mocha Cappuccino $3.25
-//Café au lait $3.00
-//Orange Juice $1.25
-//Apple Juice $1.25
-//Bagel – Plain $1.85
-//Bagel – Whole Wheat $1.85
-//Bagel – Raisin $1.85
-//Scone $2.25
-//Muffin $2.15
-
+ 
             };
             foreach (CMI c in cafeitems)
             { MenuListBox.Items.Add(c);
